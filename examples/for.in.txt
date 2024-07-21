@@ -1,0 +1,8 @@
+int k;
+
+k = 4;
+
+for (int i in 0 .. 10) {
+    k = k + 100;
+    output(i+k);
+}
